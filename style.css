@@ -54,5 +54,29 @@ body{
    font-weight: bold;
    border: 6px solid #344E41;
    border-radius: 15%;
-   /* background-color: #A3B18A; */
+}
+
+@media (max-width: 430px) {
+    .calculator{
+    height: 500px;
+    width: 290px;
+}
+.numbers{
+     width: 310px;
+     height: 350px;
+     gap: 5px;
+    }
+
+ .box,.box2,.box3{
+    width: 70px;
+    height: 70px ;
+  font-size: 20px;
+}
+
+    .box:hover, .box2:hover, .box3:hover{
+    font-size: 28px;
+}
+.exp{
+    font-size: 22px;
+}
 }
